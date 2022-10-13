@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  :root{
+    --primary-color:#FFE3E1;
+    --white: #FFFFFF; 
+    --off-white:#E5E7EB; 
+}
+.link{
+
+    text-decoration: none;
+}
+.link:hover {
+    outline: none;
+    border-bottom: 1px solid;
+    background: #FFE3E1;
+    color: #251B37;
+  }
+.link:visited {
+  color: #FF9494;
+}
+.link:link {
+  color: #FF9494;
+}
+  
+  body {
+    background: beige;
+    font-family: 'Satisfy', cursive;
+    
+  }
+  .container{
+    display: flex;
+    align-items: center;
+  }
+  
+  .non-bullet{
+      list-style: none;
+  }
+  
+  .inline{
+      display: inline;
+     
+      padding: 0.5rem 1.5rem;
+  }
+  .align-right{
+    text-align: right;
+  }
+  .align-center{
+    text-align: center;
+  }
+   
+  .inline-colour{
+      color: #000;
+      font-size: larger;
+    display: inline;
+    padding: 0.5rem 1rem;
+}
+  .header{
+    background-color: var(--primary-color);
+    position: sticky;
+    padding: 1rem 2rem;
+    font-size: x-large;
+    font-weight: bold;
+  }
+
+  .inline{
+    display: inline;
+    padding: 0.5rem 1.5rem;
+}
+  
+.img_main{
+    max-width: 60%;
+    max-height: 500px;
+    display:block;
+    margin: auto;
+    float: center;
+    
+}
+  
+  .about{
+    font-size:2em;
+    padding-left: 1.5em;
+      
+  }
+.underline{
+    text-decoration: underline overline dotted #251B37;
+}
+  .skill{
+    font-size:2em;
+    padding-left: 1.5em;
+
+  }
+  .project{
+    font-size:2em;
+    padding-left: 1.5em;
+    
+  }
+
+  
+  .footer{
+    background-color: var(--primary-color);
+    font-size: 2.5em;
+    padding: 1rem 2rem; 
+    font-weight: bold;
+      font-size: x-large;
+  }
+  
+ 
+  
